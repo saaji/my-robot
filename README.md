@@ -13,8 +13,4 @@ A portable file-based home for an assistant with explicit memory and a persona t
 
 The [Core manifest](flm/core.yaml) selects a small resident minimum: persona, cognitive orientation, memory gateway, recall, and explicit portable principles. Read it fully at launch and restore it after compaction. [Recall](flm/recall.md) selects activity guides; themes, topics, and other concepts are available as the question requires.
 
-The `my-` articles carry adopted starting traits. All existing articles remain available, with compact text. FLM itself is the governing corpus. Changes happen in place; there is no separate governing copy.
-
-The name is unset. Person, project, substrate, transcript, and source areas start empty; their `.gitkeep` files preserve the directories. The starter claims no observed history in this new home.
-
 [Layered memory](flm/layered-memory.md) explains the model. [MEMORY.md](MEMORY.md) locates memory, [AGENTS.md](AGENTS.md) governs operation, and [templates](flm/templates/README.md) support authorship. `CLAUDE.md` imports the shared rules. No database or plugin is required.
