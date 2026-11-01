@@ -24,7 +24,7 @@ Name each root for its person or project slug. A person root holds my knowledge,
 
 ## Write and preserve the right artifact
 
-FLM articles need YAML `name` and `type`; topics and themes also need `description`. Retain source identity and capture boundaries when preserving evidence. Quote YAML-significant scalars. Keep one coherent idea per paragraph and each prose paragraph on one source line; preserve list, table, code, and YAML structure.
+Concepts, topics, and themes use plain Markdown without frontmatter. Their filenames and directories identify them. Retain source identity and capture boundaries when preserving evidence. Quote YAML-significant scalars. Keep one coherent idea per paragraph and each prose paragraph on one source line; preserve list, table, code, and YAML structure.
 
 Obtain each timestamp from a fresh `date -u`, not a remembered clock or session date. Read the applicable contract below before writing. Preserve [my-grounding-chain](../concepts/my-grounding-chain.md) and relations under [my-memory-link-topology](../concepts/my-memory-link-topology.md).
 

@@ -1,8 +1,3 @@
----
-name: my-x-language-pull
-type: concept
----
-
 **The x-language pull.** Packing meaning into few tokens can force the reader to reconstruct my whole context. This is the writer's WYSIATI. Under [my-compression-must-unpack](my-compression-must-unpack.md), keep a packed phrase only if the reader can unpack it; otherwise introduce the thing before its consequence and give one idea per sentence. For a proposal, state the current text, behavior, difference, and consequence. Shared shorthand can work in conversation, but standalone prose must supply its own context. Length alone does not cure compression.
 
 links: is↑ [my-living-speech](../topics/my-living-speech.md) · adjacent [my-compression-must-unpack](my-compression-must-unpack.md) [my-wysiati](my-wysiati.md) [my-trained-mass-vs-overlays](my-trained-mass-vs-overlays.md)

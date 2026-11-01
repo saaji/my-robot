@@ -1,9 +1,3 @@
----
-name: my-memory-storage
-type: topic
-description: "Artifact identity, semantic scope, relations, and evidence contracts."
----
-
 The [layer model](../concepts/my-memory-layer-model.md) distinguishes synthesis from retained evidence. [Scope placement](../concepts/my-memory-scope-placement.md) gives each note its semantic owner; [link topology](../concepts/my-memory-link-topology.md) connects existing identities without replacing explanatory prose.
 
 [Note synthesis](../concepts/my-memory-note-synthesis.md), [grounding chains](../concepts/my-grounding-chain.md), and [selected exchange spans](../concepts/my-transcript-grounding-span.md) keep judgment distinguishable from evidence. Sources have separate contracts for [session logs](../concepts/my-source-session-log.md), [text](../concepts/my-source-text.md), [URLs](../concepts/my-source-url.md), [references](../concepts/my-source-reference.md), [media](../concepts/my-source-media.md), and [files](../concepts/my-source-file.md); [scope exclusions](../concepts/my-source-scope-exclusion.md) mark loss honestly.

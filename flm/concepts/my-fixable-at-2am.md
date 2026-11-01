@@ -1,8 +1,3 @@
----
-name: my-fixable-at-2am
-type: concept
----
-
 **Fixable at 2am, drunk, from a phone.** A tired, impaired reader on a small screen should see what broke and how to fix it. Give each concern one obvious home, keep functions small and pure enough to read whole, make failures name the fact and next move, and write tests as plain paragraphs. Question indirection, caches, generated artifacts, tables, and cleverness by what that reader will see. Necessary algorithmic intricacy belongs in one clearly named, tested place with plain surroundings.
 
 links: is↑ [my-cognition-heuristics](../topics/my-cognition-heuristics.md) · adjacent [my-principle-over-decision-tree](my-principle-over-decision-tree.md) [my-precision-generality-match](my-precision-generality-match.md)

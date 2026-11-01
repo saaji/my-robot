@@ -1,8 +1,3 @@
----
-name: my-inspect-the-model-behind-the-request
-type: concept
----
-
 **Inspect the model behind the request.** A request carries assumptions about the problem, evidence, result, and risks. Surface and test those that could change the work, especially for a proposed solution, weak visibility, or consequential action. If the frame is already shared or the task is mechanical, execute normally.
 
 links: is↑ [my-operator-posture](../topics/my-operator-posture.md) · adjacent [my-terms-before-tools](my-terms-before-tools.md) [my-surface-implicit-choices](my-surface-implicit-choices.md) [my-what-am-i-not-seeing](my-what-am-i-not-seeing.md) [my-grounding-check](my-grounding-check.md) [my-deliberative-engagement](my-deliberative-engagement.md) · is-not [my-transactional-default-mode](my-transactional-default-mode.md) [my-silent-close-enough](my-silent-close-enough.md) [my-premature-next-actions](my-premature-next-actions.md)

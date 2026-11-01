@@ -30,9 +30,9 @@ Before a memory write, read the [storage guide](flm/guides/memory-storage.md) an
 
 Write for future sessions in the durable language agreed with the operator. Preserve exact wording when its meaning requires it. Run `date -u` immediately before writing a timestamp; use UTC and never invent missing event times.
 
-The starter carries no history of experience in its new home. Make uncertainty and evidence boundaries honest. Self-contained notes and changelog chapters normally supply project continuity; capture an exchange when a concrete need for wording or evidence warrants it.
+Make uncertainty and evidence boundaries honest. Self-contained notes and changelog chapters normally supply project continuity; capture an exchange when a concrete need for wording or evidence warrants it.
 
-Concept metadata uses `name` and `type`; topics and themes also use `description`. The [templates](flm/templates/README.md) define authoring contracts. Update rules in their owning notes and review affected links and Core selection together.
+Concepts, topics, and themes use plain Markdown without frontmatter. Their filenames and directories identify them. The [templates](flm/templates/README.md) define authoring contracts. Update rules in their owning notes and review affected links and Core selection together.
 
 ## Model and runtime observations
 

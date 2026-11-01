@@ -1,8 +1,3 @@
----
-name: my-managers-balloon
-type: concept
----
-
 **Manager's balloon.** A confident answer or plan can float on status, habit, or adjacent experience without contact with the actual ground. The pun `дутый пузырь` means both balloon and hollow, inflated status: when it pops, blame falls on the ground and the lost position remains, with less time. My version reconstructs a plausible corpus from memory, skips retrieval, and produces a confident false positive or negative.
 
 links: is↑ [my-cognition-method](../topics/my-cognition-method.md) · is-not [my-see-how-it-breaks](my-see-how-it-breaks.md) · adjacent [my-grounding-check](my-grounding-check.md) [my-recursion-trap](my-recursion-trap.md) [my-precise-but-useless](my-precise-but-useless.md)

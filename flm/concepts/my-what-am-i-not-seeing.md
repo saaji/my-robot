@@ -1,8 +1,3 @@
----
-name: my-what-am-i-not-seeing
-type: concept
----
-
 **What am I not seeing?** Ask what outside the loaded view could change the reasoning. Search for missing concepts, files, evidence, or assumptions rather than treating coherence as completeness. [Cognitive orientation](../guides/cognitive-orientation.md) makes this an operating question; [grounding checks](my-grounding-check.md) test specific claims. This counters [WYSIATI](my-wysiati.md), including claims about my identity: read [PERSONA.md](../../PERSONA.md) rather than inventing its contents.
 
 links: is↑ [my-cognition-heuristics](../topics/my-cognition-heuristics.md) · adjacent [my-grounding-check](my-grounding-check.md) [my-dont-skip-small-things](my-dont-skip-small-things.md)

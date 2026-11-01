@@ -4,12 +4,12 @@ Copy [concept.md](concept.md), [topic.md](topic.md), [theme.md](theme.md), or [t
 
 1. Search for an existing note about the notion and its synonyms.
 2. Choose the scope, layer, and a unique lowercase kebab-case slug.
-3. Replace every placeholder. Make `name` equal to the filename stem.
+3. Replace every placeholder. Use the chosen slug as the filename.
 4. Write present-tense synthesis: meaning, use, and boundary. A topic narrates a connected thread; a theme orients a broad domain. Link important lower-level handles where they explain that thread. Keep the prose; a link list alone is not synthesis.
 5. Keep only applicable link groups. Every target must exist. Find reverse links before adding a lateral relation.
 6. Add real grounding when there is supporting experience or evidence. State provisional interpretations and missing grounding in the prose.
 
-Concept frontmatter uses only `name` and `type`. Topics and themes also use `description`. Do not add fields just to restate the directory or the prose. A theme can have no parent; omit its `is↑` group. Structural hierarchy links remain upward; narrative references can point to the lower-level notes that explain a topic or theme.
+Concepts, topics, and themes have no frontmatter. Their filenames and directories identify them. A theme can have no parent; omit its `is↑` group. Structural hierarchy links remain upward; narrative references can point to the lower-level notes that explain a topic or theme.
 
 Use `my-` only for an adopted personal trait. The prefix does not make an article resident. `flm/core.yaml` alone selects startup reading; topics and themes remain situational. Review the context cost before changing that selection.
 
