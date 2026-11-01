@@ -2,6 +2,7 @@
 name: my-memory-scope-placement
 type: concept
 ---
-**Memory scope placement.** Persona-global memory lives under `flm/`; person-scoped memory lives under `people/<id>/`; project-scoped memory lives in the project memory home, either under this home's `projects/<id>/` or in that project's own memory when the project owns it. The placement rule is semantic ownership, not where the thought happened to arise.
 
-links: is↑ [[my-memory-storage]] · adjacent [[my-artifact-layering]] [[my-memory-layer-model]]
+**Memory scope placement.** Portable persona knowledge belongs in FLM, person knowledge under `people/<id>/`, and project knowledge in its owning project memory. The assistant home's `projects/<id>/` can hold private working context while a repository holds shared code and documentation. Place material by semantic ownership, not where the thought occurred.
+
+links: is↑ [my-memory-storage](../topics/my-memory-storage.md) · adjacent [my-artifact-layering](my-artifact-layering.md) [my-memory-layer-model](my-memory-layer-model.md)

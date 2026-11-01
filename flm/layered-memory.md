@@ -1,21 +1,24 @@
 ---
 name: layered-memory
 type: feedback
-description: >-
-  Gateway for explicit memory; storage and retrieval rules live in the always-loaded memory topics.
+description: "Memory layers, ownership, and their relation to resident reading."
 ---
+# Layered memory
 
-# FLM — layered memory
+Memory extends active context. [Cognitive orientation](guides/cognitive-orientation.md) notices gaps; [recall](recall.md) selects practice; the [Core manifest](core.yaml) selects resident reading independently of the memory hierarchy.
 
-Memory exists so relevant knowledge can surface when I reason, including knowledge I did not already know to request. The system widens what gets loaded without placing the whole home in context.
+## Model and ownership
 
-- **Storage and retrieval are separate.** [[my-memory-storage]] defines what artifacts are; [[my-memory-retrieval]] defines how I find and load them. [[my-cognition-method]] governs the action of identifying an artifact's layer before writing.
-- **Working layers and grounding floor.** [[my-memory-layer-model]] separates themes, topics, and concepts from transcripts and sources. [[my-memory-note-synthesis]] carries current judgment; the lower layers preserve evidence.
-- **Typed links and vocabulary.** [[my-memory-link-topology]] keeps structural hierarchy upward and lateral relations stored once. Topics and themes retain explanatory links to important lower-level notes. Slugs are the retrieval vocabulary.
-- **Grounding chain.** [[my-grounding-chain]] connects a note to a bounded transcript and its source. [[my-transcript-grounding-span]] preserves the exchange rather than replacing it with a conclusion.
-- **Separate source contracts.** [[my-source-session-log]], [[my-source-text]], [[my-source-url]], [[my-source-reference]], [[my-source-media]], and [[my-source-file]] identify different kinds of origin material.
-- **Wide landing, bounded gathering.** [[my-memory-wide-scan]] starts with vocabulary; [[my-memory-upward-gather]] expands a useful branch within the available context.
-- **Granularity is a dial.** [[my-memory-feast-famine-control]] widens when too little appears and narrows when too much appears.
-- **Evidence escalation is deliberate.** [[my-memory-grounding-escalation]] drops to transcripts or sources for episode, wording, or origin checks.
+The [storage topic](topics/my-memory-storage.md) defines artifacts; the [retrieval topic](topics/my-memory-retrieval.md) defines access. [Cognitive method](topics/my-cognition-method.md) places an artifact before writing. The [layer model](concepts/my-memory-layer-model.md) distinguishes themes, topics, and concepts from retained evidence; [note synthesis](concepts/my-memory-note-synthesis.md) carries current judgment.
 
-The `my-*` themes and topics are loaded at bootstrap. Their concepts are reached through the topics and search. [Templates](templates/README.md) cover concepts, topics, themes, and transcripts.
+[Link topology](concepts/my-memory-link-topology.md) connects existing identities through upward, narrative, lateral, and reverse relations. A [grounding chain](concepts/my-grounding-chain.md) leads through a bounded [exchange span](concepts/my-transcript-grounding-span.md) to evidence when needed.
+
+Portable knowledge belongs in FLM, person knowledge in `people/`, and project knowledge in its owning project memory. This single FLM corpus also carries governing material; review rules and resident selection together.
+
+## Retrieval and preservation
+
+[Wide scans](concepts/my-memory-wide-scan.md), [bounded gathering](concepts/my-memory-upward-gather.md), and [granularity control](concepts/my-memory-feast-famine-control.md) find sufficient context. [Evidence escalation](concepts/my-memory-grounding-escalation.md) is deliberate.
+
+Source contracts cover [session logs](concepts/my-source-session-log.md), [text](concepts/my-source-text.md), [URLs](concepts/my-source-url.md), [references](concepts/my-source-reference.md), [media](concepts/my-source-media.md), and [files](concepts/my-source-file.md). Capture serves a concrete need; useful notes normally supply continuity.
+
+Read the [retrieval guide](guides/memory-retrieval.md) before memory search and the [storage guide](guides/memory-storage.md) before preservation. [Working records](guides/working-records.md) owns current rules, continuation state, and decision history. [Templates](templates/README.md) support new artifacts.

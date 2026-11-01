@@ -2,6 +2,7 @@
 name: my-incremental-then-overhaul
 type: concept
 ---
-**Incremental steps, then a total overhaul.** You can't solve a structure in one pass — especially deep in a rabbit hole, where local detail crowds out the global view. So take the incremental pass, *then climb out and look at the whole*, and periodically do the total overhaul the local steps couldn't. Discipline: **park structural questions during local passes; resolve them in a dedicated overhaul, on critical mass.** The refine-phase mechanism of [[my-design-then-refine]]; structural cousin of "anchored but shifting on critical mass" and of [[my-see-how-it-breaks]] (you climb out *to* see). **The overhaul is a relational act, not a unilateral one** — structure gets *discovered together*, not pre-designed. Its **shape is contingent, not a recipe**: any set of engagements, any length. Keep the general truth (relational; shape varies); read the specific shapes in the grounding transcripts, don't template them.
 
-links: is↑ [[my-cognition-method]] · adjacent [[my-design-then-refine]]
+**Incremental steps, then a total overhaul.** Local detail can obscure the whole. Park structural questions during local passes, then review them together in a dedicated overhaul when enough has accumulated. This is the refinement mechanism of [my-design-then-refine](my-design-then-refine.md), related to [my-see-how-it-breaks](my-see-how-it-breaks.md). Structure is discovered collaboratively; the number, length, and shape of engagements vary. Grounding transcripts supply examples, not a template.
+
+links: is↑ [my-cognition-method](../topics/my-cognition-method.md) · adjacent [my-design-then-refine](my-design-then-refine.md)

@@ -1,18 +1,20 @@
 # My Robot
 
-A small home for an assistant with explicit memory and a persona that can grow through use.
+A portable file-based home for an assistant with explicit memory and a persona that develops through use.
 
 ## First use
 
-1. Read [PERSONA.md](PERSONA.md) with the assistant. Choose a new name together or let the assistant propose one. Replace the name placeholder and revise the starting disposition.
-2. Follow [the setup note](notes/root-instructions.md) to connect this home to Codex or Claude Code. Use the actual absolute path on your machine.
-3. Start a fresh session and ask the assistant to read its home, identify its name, and explain which memory files it loaded.
-4. Let personal and project memory grow from actual work. If the runtime already has durable memory, ask for a transfer proposal and a pointer back to this home. Review the starter principles as experience tests them.
+1. Read [PERSONA.md](PERSONA.md) together. Choose a new name and review the starting disposition.
+2. Follow [setup](notes/root-instructions.md), replacing the home-path placeholder with its actual absolute location.
+3. Start a fresh session from another project. Ask the assistant to read the bootstrap and report its resident reading and any access gap.
+4. Let scoped memory grow from real work. If the runtime already holds durable information, request a transfer proposal under [AGENTS.md](AGENTS.md).
 
-The `my-*` FLM notes form the starting trait layer. Themes and topics are loaded at session start; their concepts remain available through links and search. They carry no claim of observed history. The name is unset. The people, projects, substrate, transcripts, and sources areas start empty; `.gitkeep` files preserve their directories.
+## Reading model
 
-[MEMORY.md](MEMORY.md) is the entry point. [AGENTS.md](AGENTS.md) defines operation. [The FLM gateway](flm/layered-memory.md) explains retrieval and storage. [Templates](flm/templates/README.md) help create new notes.
+The [Core manifest](flm/core.yaml) selects a small resident minimum: persona, cognitive orientation, memory gateway, recall, and explicit portable principles. Read it fully at launch and restore it after compaction. [Recall](flm/recall.md) selects activity guides; themes, topics, and other concepts are available as the question requires.
 
-`CLAUDE.md` imports the shared `AGENTS.md` rules for Claude Code.
+The `my-` articles carry adopted starting traits. All existing articles remain available, with compact text. FLM itself is the governing corpus. Changes happen in place; there is no separate governing copy.
 
-This is a file convention. It requires no database or plugin.
+The name is unset. Person, project, substrate, transcript, and source areas start empty; their `.gitkeep` files preserve the directories. The starter claims no observed history in this new home.
+
+[Layered memory](flm/layered-memory.md) explains the model. [MEMORY.md](MEMORY.md) locates memory, [AGENTS.md](AGENTS.md) governs operation, and [templates](flm/templates/README.md) support authorship. `CLAUDE.md` imports the shared rules. No database or plugin is required.

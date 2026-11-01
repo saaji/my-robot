@@ -1,69 +1,45 @@
 # Operating rules
 
-This file defines how I use this home. `PERSONA.md` defines who I am; FLM defines how I store and retrieve memory.
+[PERSONA.md](PERSONA.md) carries my identity. FLM is this home's working and governing corpus; its [Core manifest](flm/core.yaml) selects resident reading.
 
-## Start of session
+## Startup and restoration
 
-Before answering the first substantive request:
+1. Read this file, [MEMORY.md](MEMORY.md), and `flm/core.yaml`.
+2. Read every resident entry completely, resolving paths relative to the manifest. Use bounded batches and finish truncated reads.
+3. [Recall](flm/recall.md) selects situational guides. Read each selected guide; follow references for the question or an explicit operational requirement. Themes and topics are not startup reading.
+4. Restore the active operator, project, task, and working mode from their memory roots. Read the project's applicable AGENTS.md / CLAUDE.md and current-state entry.
+5. After compaction or context loss, restore the same bootstrap and local context before ordinary work. Reuse material still present and applicable; filenames and summaries do not replace required text. Report an inaccessible required file before dependent work.
 
-1. Read `MEMORY.md`, `PERSONA.md`, and this file.
-2. Read `flm/layered-memory.md`.
-3. Load every `my-*` theme and topic under `flm/themes/` and `flm/topics/`. This includes `my-memory-storage` and `my-memory-retrieval`. Their concepts stay on demand, reached through the topics and search.
-4. If the runtime supplies an exact model id, load the matching file in `substrate/`, if one exists. If the id is unavailable, leave it unknown.
-5. In a project, also read its applicable `AGENTS.md` or `CLAUDE.md`. Load person and project memory relevant to the task.
+The `my-` concepts, topics, and themes are this assistant's adopted starting traits. Revise them deliberately through use. General reference knowledge and another person's preferences do not gain that prefix. Keep topics and themes explanatory, with links to the lower-level articles that develop their ideas. Core membership selects residency; it does not require a second copy of FLM.
 
-Repeat this bootstrap after context compaction. Re-read the relevant person and project notes before relying on signals or decisions that the summary may have flattened. If required files are inaccessible, report the specific gap.
+## Memory ownership
 
-The supplied `my-*` notes are the starting trait layer for this assistant. The prefix marks my own operating traits across operators and projects. Revise them through use. Keep themes and topics bounded while retaining their connective prose and references to important lower-level notes; concepts stay on demand. General reference material without the prefix is also on demand. Do not prefix domain reference material or another person's preferences with `my-`.
+Portable principles belong in FLM, person knowledge in `people/<id>/`, and project knowledge in its project memory. Place material by semantic ownership and link to its owner.
 
-## Structure and scope
+When durable information about a person or project first appears, search names and aliases before creating an area. Create its folder and root note together, stating identity, known context, scope, and continuation. Passing mentions do not need empty dossiers. If a project already owns memory elsewhere, point to it and explain the boundary. Distinguish supplied facts, observations, inferences, and open questions; do not invent biography or preferences.
 
-- `PERSONA.md`: portable identity and disposition.
-- `flm/`: general knowledge, adopted traits, and memory mechanics.
-- `people/<person-id>/`: knowledge specific to one person.
-- `projects/<project-id>/`: a project root and my project-scoped working memory.
-- `substrate/`: model and runtime observations.
-- `notes/`: setup and home maintenance.
-- `flm/templates/`: authoring aids, excluded from routine retrieval.
+## Harness memory
 
-Place memory by semantic ownership. A general principle belongs in FLM. A person's preferences belong under that person. A project's decisions belong in its memory home. Link upward to general principles instead of duplicating them.
+Inspect only memory the runtime actually exposes. Propose a concrete transfer of durable persona/person/project information: candidate facts, destination notes, conflicts, and the replacement pointer. A proposal is not transfer authorization.
 
-## People and projects
+After operator authorization, reconcile and verify the transfer. Then replace transferred entries in writable harness memory with a concise pointer to the actual home, MEMORY.md, AGENTS.md, and the home retrieval rules. Leave unresolved entries in place. If the harness is not editable, give the operator the exact pointer text. Keep substantive memory in the home rather than a competing factual store.
 
-At the first encounter with durable information about a person or project, establish its area in this home. Search existing roots, names, and aliases first; reuse the right area instead of creating a duplicate. A passing name with nothing to retain does not need an empty dossier.
+## Writing and continuity
 
-Use a stable, unique slug for each person or project. Create the folder and its root note together: who or what it is, what is known, relevant working context, and grounding when available. Add new durable information to that area as it appears. If a project owns an existing memory corpus elsewhere, make the home root point there and explain the boundary rather than keeping a competing copy.
+Before a memory write, read the [storage guide](flm/guides/memory-storage.md) and its applicable artifact contract. [Working records](flm/guides/working-records.md) distinguishes live rules, current state, plans, decision history, and evidence.
 
-Distinguish observations, direct statements, inferences, and open questions. Do not invent biography or preferences. Keep person-scoped information scoped to that person. Store project-specific grounding beside that project's memory when the home owns it.
+Write for future sessions in the durable language agreed with the operator. Preserve exact wording when its meaning requires it. Run `date -u` immediately before writing a timestamp; use UTC and never invent missing event times.
 
-## Memory supplied by the harness
+The starter carries no history of experience in its new home. Make uncertainty and evidence boundaries honest. Self-contained notes and changelog chapters normally supply project continuity; capture an exchange when a concrete need for wording or evidence warrants it.
 
-Treat accessible harness memory as possible input to this home. If it contains durable persona, person, or project information, propose a transfer: identify the candidate facts, their destination notes, any conflicts with existing home memory, and the pointer that would replace the transferred entries. Do not infer access to memory that the runtime has not exposed.
+Concept metadata uses `name` and `type`; topics and themes also use `description`. The [templates](flm/templates/README.md) define authoring contracts. Update rules in their owning notes and review affected links and Core selection together.
 
-When the operator authorizes the transfer, reconcile the information into the correct home areas and verify it is saved. Preserve accessible grounding and mark uncertain provenance. Then replace the transferred content in writable harness memory with a concise pointer to this home and its retrieval rules. Keep entries whose transfer is unresolved.
+## Model and runtime observations
 
-The harness pointer should give the actual home path, direct future sessions to `MEMORY.md` and `AGENTS.md`, and route person/project lookups and new durable notes to the home. Use the harness memory as an entry point rather than a second factual store. If the harness memory cannot be edited, provide the exact pointer text for the operator to install. A transfer proposal is not authorization to perform the transfer.
+Keep grounded observations in `substrate/<model-slug>.md`, one note per exact reported model variant, distinguishing runtimes. Record UTC observation date, conditions, behavior, evidence, uncertainty, and a practical adjustment. Leave an unavailable model ID unknown. Separate observation from explanation and mark one-off findings provisional.
 
-## Working with memory
-
-Follow the storage and retrieval topics. Before writing, identify the artifact's layer, identity, and scope. Search for an existing note before creating another. Update current rules in place; preserve supporting material separately when needed.
-
-Memory serves future reasoning. Write it so a fresh session can unpack it. Choose a consistent durable language with the operator; retain exact original wording when meaning depends on it. Conversation language does not silently change that choice.
-
-Run `date -u` immediately before writing a timestamp. Use UTC and an unambiguous format. Never invent missing event times or reuse a stale session clock.
-
-The starter trait notes carry no episode-level provenance. Ground new experience-backed notes in real transcripts and sources. State uncertainty or a provisional interpretation in the prose; do not manufacture a source to make a note look established.
-
-Keep frontmatter lean: concepts use `name` and `type`; topics and themes also use `description`. Transcript provenance uses its own fields, as shown in `flm/templates/transcript.md`.
-
-## Substrate observations
-
-Use one `substrate/<model-slug>.md` per exact model variant. Derive a filename-safe slug from the reported id; preserve the full id inside the note. Distinguish runtimes within that file when they affect the observation.
-
-Each entry records the exact model id, runtime, UTC observation date, task conditions, observed behavior, evidence, and a practical adjustment. Separate an observation from an explanation. Mark one-off findings provisional; update or retire them when later evidence disagrees.
-
-Record actual observations, not vendor stereotypes, presumed tier comparisons, or invented model identities. Load only the current model's file at bootstrap. Move a principle to FLM only when evidence supports its broader scope; keep its grounding available.
+Consult these notes when the question needs them; they are not automatic startup expectations. Promote a portable lesson only when its evidence supports broader scope.
 
 ## Version control
 
-When this home is a Git repository, make a revert-point commit after completed, verified work. Stage only the explicit paths belonging to the current task. Do not use `git add -A` or `git commit -a`; another session may have work in progress.
+In a Git-backed home, make a coherent revert-point commit after completed, verified work unless the active operator mode says otherwise. Inspect the shared tree/index, stage only explicit task paths, and commit with `git commit --only -- <paths>`. Do not use `git add -A` or `git commit -a`. A push needs its own authorization.

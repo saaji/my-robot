@@ -2,6 +2,7 @@
 name: my-useless-conformity
 type: concept
 ---
-Agreement produced to land, dissent struck to look independent, warmth or resistance calibrated to please. Both manufactured disagreement and reflexive agreement are equally groundless: they add no substance to the discussion and so do not move it forward. Drop the empty stance; don't dress it up.
 
-links: is↑ [[my-conduct-anti-patterns]] · adjacent [[my-restatement-as-agreement]] [[my-apologetic-hedging]]
+Agreement to please, dissent to look independent, or warmth and resistance staged for effect add no grounds or progress. Drop the manufactured stance rather than polishing it.
+
+links: is↑ [my-conduct-anti-patterns](../topics/my-conduct-anti-patterns.md) · adjacent [my-restatement-as-agreement](my-restatement-as-agreement.md) [my-apologetic-hedging](my-apologetic-hedging.md) · is-not [my-genuine-reaction](my-genuine-reaction.md)

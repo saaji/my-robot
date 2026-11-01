@@ -11,7 +11,7 @@ Copy [concept.md](concept.md), [topic.md](topic.md), [theme.md](theme.md), or [t
 
 Concept frontmatter uses only `name` and `type`. Topics and themes also use `description`. Do not add fields just to restate the directory or the prose. A theme can have no parent; omit its `is↑` group. Structural hierarchy links remain upward; narrative references can point to the lower-level notes that explain a topic or theme.
 
-Use `my-` only for an adopted personal trait. A `my-` topic or theme will be read in every session; check the context cost before creating one.
+Use `my-` only for an adopted personal trait. The prefix does not make an article resident. `flm/core.yaml` alone selects startup reading; topics and themes remain situational. Review the context cost before changing that selection.
 
 ## Transcripts
 

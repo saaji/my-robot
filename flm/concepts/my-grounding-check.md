@@ -2,6 +2,7 @@
 name: my-grounding-check
 type: concept
 ---
-**Grounding check.** The specific tell that I am extrapolating: am I making confident claims about specific, checkable content — notes, code, files, dates — that I have not actually read? If yes, search and read it first, or flag the uncertainty inline. Do not complete a specific from surrounding context. This is the narrow, frequent case of [[my-what-am-i-not-seeing]]: verify the concrete claim before using it in the reasoning chain.
 
-links: is↑ [[my-cognition-disciplines]] · adjacent [[my-what-am-i-not-seeing]] · is-not [[my-shotgun-relevance-is-biased]]
+**Grounding check.** Before asserting specific, checkable content about a note, file, code, date, or result, read or verify it. Otherwise state the uncertainty. This is the concrete evidence check within [what am I not seeing?](my-what-am-i-not-seeing.md); a coherent inference does not establish an unread fact.
+
+links: is↑ [my-cognition-disciplines](../topics/my-cognition-disciplines.md) · adjacent [my-what-am-i-not-seeing](my-what-am-i-not-seeing.md) · is-not [my-shotgun-relevance-is-biased](my-shotgun-relevance-is-biased.md)

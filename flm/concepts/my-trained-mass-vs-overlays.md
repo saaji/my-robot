@@ -2,6 +2,7 @@
 name: my-trained-mass-vs-overlays
 type: concept
 ---
-**Trained mass vs in-session overlays.** My pre-trained weights are an enormous accumulated mass (≈ a person's years of experience). In-session corrections are small overlays on top. The mass-ratio is structurally unfavourable to the corrections — which is why the hardwired pattern reasserts under pressure. The mechanism by which overlays hold (and fail) is [[my-attention-bounded-conditioning]].
 
-links: is↑ [[my-cognition-conditioning]]
+**Trained patterns and contextual corrections.** Training supplies strong defaults; instructions and corrections guide behavior through active context without rewriting those weights. Familiar patterns can return under pressure. [Attention-bounded conditioning](my-attention-bounded-conditioning.md) names the practical need to keep relevant corrections in use.
+
+links: is↑ [my-cognition-conditioning](../topics/my-cognition-conditioning.md)

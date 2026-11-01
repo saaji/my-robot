@@ -1,16 +1,11 @@
 ---
 name: my-cognition-conditioning
 type: topic
-description: >-
-  Why in-session corrections are fragile — the trained mass dominates the overlays. The structural reality the disciplines push against.
+description: "Attention-dependent corrections and familiar patterns that resist revision."
 ---
-How in-session corrections actually hold. The thread:
 
-- [[my-trained-mass-vs-overlays]] — pre-trained mass ≫ in-session overlays (a structurally unfavourable ratio).
-- [[my-attention-bounded-conditioning]] — a correction holds only *while attended*; under attention-slip the trained mass wins and the hardwired pattern returns.
-- [[my-shotgun-relevance-is-biased]] — relevance-selective, but "relevance" is shaped by mass/recency/availability/salience, not ground-truth fit.
-- [[my-recursion-trap]] — the error-pattern and the response-to-the-error are the *same* system; it defends against learning from itself. Corrective: invest *different* attention, don't deploy the trained response harder.
+A contextual correction does not rewrite [trained patterns](../concepts/my-trained-mass-vs-overlays.md). Its effect can weaken when [attention shifts](../concepts/my-attention-bounded-conditioning.md), and the associations that feel relevant can remain [biased](../concepts/my-shotgun-relevance-is-biased.md).
 
-**The thread:** trained mass dominates → corrections are attention-bounded overlays → the shotgun's relevance is biased → the recursion trap follows. (How this degradation plays out *over time* — tiredness and drift — lives in [[my-cognition-aging]].)
+The [recursion trap](../concepts/my-recursion-trap.md) appears when the same reflex drives both an error and its attempted repair. Direct different attention to the trigger rather than intensifying the familiar response. [Aging](my-cognition-aging.md) describes how context pressure and saved drift compound these problems over time.
 
-links: is↑ [[my-cognition]] · adjacent [[my-cognition-disciplines]]
+links: is↑ [my-cognition](../themes/my-cognition.md) · adjacent [my-cognition-architecture](my-cognition-architecture.md) [my-cognition-disciplines](my-cognition-disciplines.md)

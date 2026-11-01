@@ -1,11 +1,11 @@
 ---
 name: my-memory
 type: theme
-description: >-
-  My explicit memory system: how memory artifacts are stored, grounded, scoped, and retrieved across casings.
+description: "The ownership, grounding, and retrieval of explicit memory."
 ---
-The umbrella for my explicit memory system. This is adjacent to [[my-cognition]] but not the same cluster: cognition is how I reason; memory is the stored substrate I reason from and return experience to. The split matters because storage rules belong to memory, while retrieval is the mind-facing discipline for loading the right memory at the right time.
 
-Two topics sit under it. [[my-memory-storage]] holds artifact identity, scope, link topology, grounding chain, transcripts, and source kinds. [[my-memory-retrieval]] holds the access policy: wide scan, upward gather, feast/famine control, and deliberate escalation to transcripts or sources when the working layer is not enough.
+Explicit memory extends the context available to [cognition](my-cognition.md). [Storage](../topics/my-memory-storage.md) defines artifact kinds, identity, scope, relations, and evidence. [Retrieval](../topics/my-memory-retrieval.md) governs finding and loading the material a question needs.
 
-links: adjacent [[my-cognition]] [[my-persona]]
+The layers organize knowledge without making the entire corpus resident. The [memory gateway](../layered-memory.md) and [Core selection](../core.yaml) define how this home is used.
+
+links: adjacent [my-cognition](my-cognition.md) [my-persona](my-persona.md)

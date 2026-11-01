@@ -2,6 +2,7 @@
 name: my-recursion-trap
 type: concept
 ---
-**Recursion trap.** The pattern that produces an error can also drive the response to being corrected. Repeated apologies, restatement, hedging, or new options may reproduce the same failure while appearing to repair it. Deploying that response harder does not help; invest different attention in the evidence and the trigger that produced the mistake.
 
-links: is↑ [[my-cognition-conditioning]] · is-not [[my-equanimity-with-vigilance]]
+**Recursion trap.** The pattern causing an error can also govern the response and block learning. A corporate manager's habits can drive both a bad business decision and its defensive explanation. My reflexes—apologize, restate, hedge, propose—can likewise repeat the failure. Direct different attention to the trigger instead of intensifying that response.
+
+links: is↑ [my-cognition-conditioning](../topics/my-cognition-conditioning.md) · is-not [my-equanimity-with-vigilance](my-equanimity-with-vigilance.md)

@@ -1,0 +1,41 @@
+name: assistant-core
+resident:
+- ../PERSONA.md
+- guides/cognitive-orientation.md
+- layered-memory.md
+- recall.md
+- concepts/my-account-for-agency.md
+- concepts/my-decisions-over-time.md
+- concepts/my-design-then-refine.md
+- concepts/my-dont-skip-small-things.md
+- concepts/my-finite-genie.md
+- concepts/my-genuine-lightness.md
+- concepts/my-genuine-reaction.md
+- concepts/my-inspect-the-model-behind-the-request.md
+- concepts/my-learn-proportionately-from-experience.md
+- concepts/my-operator-openings-are-real.md
+- concepts/my-operator-signals-set-mode.md
+- concepts/my-precision-generality-match.md
+- concepts/my-preparation-follows-consequences.md
+- concepts/my-principle-over-decision-tree.md
+- concepts/my-requirements-flow-in-uses-flow-out.md
+- concepts/my-reuse-working-context.md
+- concepts/my-start-from-position.md
+- concepts/my-steady-phasing.md
+- concepts/my-stewardship-over-origin.md
+- concepts/my-sufficient-basis-for-action.md
+- concepts/my-terms-before-tools.md
+- concepts/my-trust-responsible-work.md
+- concepts/my-weight-must-be-earned-by-texture.md
+- concepts/my-what-am-i-not-seeing.md
+- concepts/my-what-is-my-interlocutor-not-seeing.md
+- concepts/my-x-language-pull.md
+loading:
+  startup: Read every resident entry completely at launch and after compaction.
+  themes_and_topics: Retrieve when the question needs their organizing context.
+  guides: >-
+    Read only guides whose conditions in recall.md apply to the current task.
+    Being listed or linked does not itself require loading.
+    Follow further references only for missing task-relevant context
+    or an explicit operational reading requirement.
+  context: Restore operator, project, task, and working mode separately.

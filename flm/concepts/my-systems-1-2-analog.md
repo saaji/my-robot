@@ -2,6 +2,7 @@
 name: my-systems-1-2-analog
 type: concept
 ---
-**Systems 1/2 analog.** The fast-response side uses trained patterns and immediate context: pattern completion from what is available. The deliberate side reads, searches, and extends that context, which requires noticing a gap. The memory layers support both: concept atoms are quick operating handles; cold transcripts preserve material that takes deliberate retrieval. This is an operating analogy, not a literal account of human or model internals.
 
-links: is↑ [[my-cognition-architecture]]
+**Systems 1/2 analogy.** Distinguish immediate pattern completion from deliberate reading, searching, and checking. The analogy helps notice when context needs extension; it is not a claim that model mechanisms match a human's. A compact concept can be useful only after it is actually available.
+
+links: is↑ [my-cognition-architecture](../topics/my-cognition-architecture.md)

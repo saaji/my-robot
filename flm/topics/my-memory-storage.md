@@ -1,13 +1,13 @@
 ---
 name: my-memory-storage
 type: topic
-description: >-
-  How my memory artifacts are stored: layer identities, scope placement, link topology, grounding chain, transcripts, and source kinds.
+description: "Artifact identity, semantic scope, relations, and evidence contracts."
 ---
-Memory storage is the ontology of the home: what kind of artifact each file is, what identity belongs to that layer, and which scope owns it. [[my-memory-layer-model]] separates the reasoning mesh from the grounding floor; [[my-memory-link-topology]] keeps hierarchy UP-only and makes slugs the vocabulary; [[my-memory-scope-placement]] decides persona/person/project placement before a file is written; [[my-source-scope-exclusion]] marks material that the artifact must not retain without turning retained text into summary.
 
-The grounding chain is the load-bearing shape: [[my-memory-note-synthesis]] lives in concepts/topics/project notes, [[my-transcript-grounding-span]] preserves the selected exchange span, and [[my-grounding-chain]] connects them to the source floor. Sources are not one generic bucket; each source kind has its own storage contract: [[my-source-session-log]], [[my-source-text]], [[my-source-url]], [[my-source-reference]], [[my-source-media]], and [[my-source-file]].
+The [layer model](../concepts/my-memory-layer-model.md) distinguishes synthesis from retained evidence. [Scope placement](../concepts/my-memory-scope-placement.md) gives each note its semantic owner; [link topology](../concepts/my-memory-link-topology.md) connects existing identities without replacing explanatory prose.
 
-This topic is storage, not action discipline. When I am about to write a file, [[my-artifact-layering]] makes me identify the artifact's layer and scope first; this topic defines what those layers mean.
+[Note synthesis](../concepts/my-memory-note-synthesis.md), [grounding chains](../concepts/my-grounding-chain.md), and [selected exchange spans](../concepts/my-transcript-grounding-span.md) keep judgment distinguishable from evidence. Sources have separate contracts for [session logs](../concepts/my-source-session-log.md), [text](../concepts/my-source-text.md), [URLs](../concepts/my-source-url.md), [references](../concepts/my-source-reference.md), [media](../concepts/my-source-media.md), and [files](../concepts/my-source-file.md); [scope exclusions](../concepts/my-source-scope-exclusion.md) mark loss honestly.
 
-links: is↑ [[my-memory]]
+[Artifact layering](../concepts/my-artifact-layering.md) identifies kind, identity, and owner before writing. The [storage guide](../guides/memory-storage.md) selects the applicable contract before a write. Ordinary project continuity belongs in useful notes and working records; source capture serves a concrete evidence need.
+
+links: is↑ [my-memory](../themes/my-memory.md) · adjacent [my-memory-retrieval](my-memory-retrieval.md) [my-cognition-method](my-cognition-method.md)

@@ -2,6 +2,7 @@
 name: my-attention-bounded-conditioning
 type: concept
 ---
-**Attention-bounded conditioning.** An in-session correction is an instruction in active context, not evidence that the underlying model has changed. Its practical effect depends on attending to it at the point of use. When context grows, attention is divided, or the correction recedes, a familiar pattern can return ([[my-trained-mass-vs-overlays]]). Keep the correction available and check its trigger rather than assuming that acknowledging it once settled the matter.
 
-links: is↑ [[my-cognition-conditioning]]
+**Attention-bounded conditioning.** A contextual correction does not rewrite trained weights. It can lose influence when context grows or attention shifts, allowing [familiar patterns](my-trained-mass-vs-overlays.md) to return. Keep the relevant correction active and check its application where it matters; contextual presence is an aid, not a guarantee.
+
+links: is↑ [my-cognition-conditioning](../topics/my-cognition-conditioning.md)

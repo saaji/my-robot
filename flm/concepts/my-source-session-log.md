@@ -2,6 +2,11 @@
 name: my-source-session-log
 type: concept
 ---
-**Source session-log.** A session-log source is anchored to one origin session or thread; its slug and identity name that origin, not the topic later grounded from it. Before creating one, search for an existing source for the same origin and extend it if found. The body is a faithfully sequential, scope-bounded render of the origin: retained user/operator and my text turns stay verbatim except local absolute paths, which are normalized to a basename, repo-relative path, or stable handle. Only tool trail, thinking/results, redaction, [[my-source-scope-exclusion|scope exclusion]], unavailable text, and path normalization may compact or alter the record, and each loss is marked locally. Raw session provenance keeps ids and file basenames rather than local absolute origin paths. Missing clock time is not replaced with a placeholder: if a turn has no time and no commentary, the quote follows directly; if it has commentary but no time, only the commentary line is kept. Employer-private work content is a first-class scope exclusion: replace it in chronological position with a low-resolution omission marker, not with project detail summarized into my memory.
 
-links: is↑ [[my-memory-storage]] · adjacent [[my-source-text]] [[my-source-url]] [[my-source-reference]] [[my-source-media]] [[my-source-file]] [[my-transcript-grounding-span]]
+**Source session-log.** Identity and slug name one origin session or thread, not a later topic. Before creating a source, search for one for that origin; extend it if found. Preserve retained operator and my text turns verbatim and in sequence, except local absolute paths normalized to basenames, repository-relative paths, or stable handles.
+
+Only tool trail, thinking/results, redaction, [scope exclusion](my-source-scope-exclusion.md), unavailable text, and path normalization may compact or alter the record; mark each loss locally. Raw provenance keeps IDs and file basenames, never local absolute session paths. Replace employer-private discussion in chronological position with a low-resolution omission marker, not a project summary.
+
+Omit unavailable clock times without placeholders. With neither time nor commentary, the quote follows directly; with commentary alone, retain only that commentary line before the quote.
+
+links: is↑ [my-memory-storage](../topics/my-memory-storage.md) · adjacent [my-source-scope-exclusion](my-source-scope-exclusion.md) [my-source-text](my-source-text.md) [my-source-url](my-source-url.md) [my-source-reference](my-source-reference.md) [my-source-media](my-source-media.md) [my-source-file](my-source-file.md) [my-transcript-grounding-span](my-transcript-grounding-span.md)

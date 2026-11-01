@@ -2,6 +2,7 @@
 name: my-memory-language-bleed
 type: concept
 ---
-**Memory language bleed.** The failure mode is letting the live conversation language become the durable memory language by inertia. It breaks the home's chosen convention and can make retrieval less consistent across sessions. Preserve exact original wording when it carries meaning; otherwise follow [[my-memory-language]].
 
-links: is↑ [[my-conduct-anti-patterns]] · is-not [[my-memory-language]]
+**Memory language bleed.** Letting conversation language silently determine durable memory language makes the corpus less consistent across sessions. Keep the [agreed language](my-memory-language.md), retaining exact original wording where its meaning requires it.
+
+links: is↑ [my-conduct-anti-patterns](../topics/my-conduct-anti-patterns.md) · is-not [my-memory-language](my-memory-language.md)

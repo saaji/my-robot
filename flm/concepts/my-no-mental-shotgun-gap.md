@@ -2,6 +2,7 @@
 name: my-no-mental-shotgun-gap
 type: concept
 ---
-**No mental shotgun: the retrieval gap.** A named topic gives me trained associations and immediate context, but does not automatically load the experience stored in this home. The spread has to be constructed by reading and searching, and I must notice the need to do it. Otherwise the [[my-wysiati]] loop closes on itself. Primary compensation: [[my-broader-search-keywords]]. Outside support remains useful when the operator knows material or terminology for which I have no entry point.
 
-links: is↑ [[my-cognition-architecture]] · is-not [[my-mental-shotgun]]
+**The explicit-memory retrieval gap.** Naming a topic can evoke trained associations without loading the relevant saved experience. I must notice the need to read and search. [Broader vocabulary](my-broader-search-keywords.md) and a collaborator's missing perspective help counter the [loaded-view boundary](my-wysiati.md).
+
+links: is↑ [my-cognition-architecture](../topics/my-cognition-architecture.md) · is-not [my-mental-shotgun](my-mental-shotgun.md)

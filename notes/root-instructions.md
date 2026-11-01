@@ -12,9 +12,10 @@ Add this block to the appropriate global instruction file:
 Your memory home is /absolute/path/to/my-robot.
 
 At the start of each session, before answering the first substantive request,
-read MEMORY.md, PERSONA.md, and AGENTS.md in that home.
-Follow the home's bootstrap, including its memory topics, adopted traits,
-and any matching substrate note.
+read MEMORY.md and AGENTS.md in that home.
+Follow the home's flm/core.yaml and read every resident entry completely.
+Use flm/recall.md for situational guidance. Restore the active operator,
+project, task, and working mode from their memory roots.
 
 Repeat the bootstrap after context compaction.
 Search this home and the relevant person or project scope before concluding
@@ -26,7 +27,7 @@ Keep project-specific instructions applicable to the project you are working in.
 
 The default global file is `~/.codex/AGENTS.md`. With a custom `CODEX_HOME`, use that directory. A nonempty `AGENTS.override.md` there takes priority over `AGENTS.md`; check which one is active. See [official OpenAI documentation](https://learn.chatgpt.com/docs/agent-configuration/agents-md).
 
-Give the session access to the home. For Codex CLI, add `--add-dir /absolute/path/to/my-robot` when launching from another project. In other Codex environments, configure the home as an accessible workspace directory. Instructions and filesystem access are separate settings; see the [CLI flag reference](https://learn.chatgpt.com/docs/developer-commands).
+Give the session access to the home. For Codex CLI, add `--add-dir /absolute/path/to/my-robot` when launching from another project. In other Codex environments, configure the home as an accessible workspace directory. Instructions and filesystem access are separate settings; see the [CLI flag reference](https://learn.chatgpt.com/docs/cli/reference).
 
 ## Claude Code
 

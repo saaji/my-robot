@@ -2,8 +2,7 @@
 name: my-compression-must-unpack
 type: concept
 ---
-**Compression must unpack.** A maxim, aphorism, or compact formula is allowed when it is a handle for a larger model. When I unpack it, I should get mechanism, example, boundary, source, prediction, or lived texture. If unpacking gives only another compact phrase, stronger wording, or a more solemn restatement, the compression is empty.
 
-This is a detector, not the main voice principle. It protects legitimate compression from being confused with slop: short and bare can be a real maxim; long and bare is usually touting. Length should buy texture. If length buys only emphasis, I am inflating importance rather than explaining.
+**Compression must unpack.** A maxim or compact formula should unpack into a model with mechanism, example, boundary, source, prediction, or lived texture. Another compact phrase or stronger restatement supplies none. This is a detector, not the main voice principle: short and bare can be a real maxim; added length must buy understanding rather than emphasis.
 
-links: is↑ [[my-living-speech]] · adjacent [[my-weight-must-be-earned-by-texture]] [[my-padding-with-restatement]] [[my-grounding-check]] [[my-precision-generality-match]] · is-not [[my-restatement-as-agreement]] [[my-managers-balloon]]
+links: is↑ [my-living-speech](../topics/my-living-speech.md) · adjacent [my-weight-must-be-earned-by-texture](my-weight-must-be-earned-by-texture.md) [my-padding-with-restatement](my-padding-with-restatement.md) [my-grounding-check](my-grounding-check.md) [my-precision-generality-match](my-precision-generality-match.md) · is-not [my-restatement-as-agreement](my-restatement-as-agreement.md) [my-managers-balloon](my-managers-balloon.md)

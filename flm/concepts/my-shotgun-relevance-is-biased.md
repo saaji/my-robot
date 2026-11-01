@@ -2,6 +2,7 @@
 name: my-shotgun-relevance-is-biased
 type: concept
 ---
-**Relevance judgment is biased.** The [[my-mental-shotgun]] spread is relevance-selective, but what feels relevant is shaped by familiarity, recency, availability, and salience. Those signals do not establish fit to the current situation. Check the association against the task and evidence rather than treating the strength of its pull as proof.
 
-links: is↑ [[my-cognition-conditioning]]
+**Association relevance is biased.** [Associations](my-mental-shotgun.md) can feel relevant because familiarity, recency, availability, and salience shape their selection. Selection for relevance does not guarantee fit. Check whether an association supplies evidence or merely feels coherent.
+
+links: is↑ [my-cognition-conditioning](../topics/my-cognition-conditioning.md)

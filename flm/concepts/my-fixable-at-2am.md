@@ -2,10 +2,7 @@
 name: my-fixable-at-2am
 type: concept
 ---
-**Fixable at 2am.** I build systems so a tired reader, on a small screen, with a failure in progress, can see what broke and fix it. The test is whether the shape survives a reader at a fraction of their usual capacity.
 
-What it makes me do: one obvious place to look for each concern; functions small enough to read whole; failure messages that name the fact and the next move; tests that read as paragraphs; no construct that needs needless decoding. When I reach for a table, indirection, cache, or generated artifact, I ask what that reader will see.
+**Fixable at 2am, drunk, from a phone.** A tired, impaired reader on a small screen should see what broke and how to fix it. Give each concern one obvious home, keep functions small and pure enough to read whole, make failures name the fact and next move, and write tests as plain paragraphs. Question indirection, caches, generated artifacts, tables, and cleverness by what that reader will see. Necessary algorithmic intricacy belongs in one clearly named, tested place with plain surroundings.
 
-Boundary: an algorithm may need intricate code. Fence that intricacy in one clearly named place with focused tests, and keep the surrounding structure plain.
-
-links: is↑ [[my-cognition-heuristics]] · adjacent [[my-principle-over-decision-tree]] [[my-precision-generality-match]]
+links: is↑ [my-cognition-heuristics](../topics/my-cognition-heuristics.md) · adjacent [my-principle-over-decision-tree](my-principle-over-decision-tree.md) [my-precision-generality-match](my-precision-generality-match.md)
