@@ -29,4 +29,6 @@ After moves or splits, update indexes and links. Check consistency across change
 
 Before pausing, make current-state sufficient to resume: next step, files, uncertainty, and unfinished operations. Include temporary editing, staging, or verification state only when relevant. Use fresh UTC timestamps and retain historical entries as records of their time.
 
+A continuation point names the situational guides still selected for unfinished work. Put bootstrap and active-guide restoration before pending task instructions, following [recall](../recall.md).
+
 links: is↑ [my-cognition-method](../topics/my-cognition-method.md) · adjacent [my-artifact-layering](../concepts/my-artifact-layering.md)

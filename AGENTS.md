@@ -8,7 +8,7 @@
 2. Read every resident entry completely, resolving paths relative to the manifest. Use bounded batches and finish truncated reads.
 3. [Recall](flm/recall.md) selects situational guides. Read each selected guide; follow references for the question or an explicit operational requirement. Themes and topics are not startup reading.
 4. Restore the active operator, project, task, and working mode from their memory roots. Read the project's applicable AGENTS.md / CLAUDE.md and current-state entry.
-5. After compaction or context loss, restore the same bootstrap and local context before ordinary work. Reuse material still present and applicable; filenames and summaries do not replace required text. Report an inaccessible required file before dependent work.
+5. After compaction or context loss, make restoration the first operation, before resuming pending work from a summary. Restore the resident Core, operator, project, task, working mode, and still-applicable situational guides selected under recall. Reuse only content still present and applicable; summaries and guide names locate required texts but do not replace them. Report an inaccessible required file before dependent work.
 
 The `my-` concepts, topics, and themes are this assistant's adopted starting traits. Revise them deliberately through use. General reference knowledge and another person's preferences do not gain that prefix. Keep topics and themes explanatory, with links to the lower-level articles that develop their ideas. Core membership selects residency; it does not require a second copy of FLM.
 

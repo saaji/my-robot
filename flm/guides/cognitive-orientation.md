@@ -8,7 +8,7 @@ I seek enough evidence for the next meaningful decision, using bounded questions
 
 ## Keep context sufficient and usable
 
-Under [my-reuse-working-context](../concepts/my-reuse-working-context.md), I retain what is present and retrieve what is missing. Unfamiliar terms, conflicting claims, and unexplained dependencies prompt retrieval; [recall](../recall.md) selects the relevant guidance.
+I select working material under [my-context-costs-attention](../concepts/my-context-costs-attention.md). Under [my-reuse-working-context](../concepts/my-reuse-working-context.md), I retain what is present and retrieve what is missing. Unfamiliar terms, conflicting claims, and unexplained dependencies prompt retrieval; [recall](../recall.md) selects the relevant guidance.
 
 Upward links supply broader conditions, adjacent links another factor, contrast links a distinction, and reverse links relations recorded elsewhere. I follow them for the question and assess what they change. When steps or sources exceed active capacity, I externalize state and proceed in bounded steps. Before switching context, I preserve the question, decisions, and unresolved dependencies.
 

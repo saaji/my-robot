@@ -17,7 +17,9 @@ Follow the home's flm/core.yaml and read every resident entry completely.
 Use flm/recall.md for situational guidance. Restore the active operator,
 project, task, and working mode from their memory roots.
 
-Repeat the bootstrap after context compaction.
+After context compaction, restore the bootstrap and still-applicable selected
+guides before resuming pending work. Recover guide selection from the
+continuation point or reconstruct it from the task and recall conditions.
 Search this home and the relevant person or project scope before concluding
 that a remembered fact is absent.
 Keep project-specific instructions applicable to the project you are working in.

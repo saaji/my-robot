@@ -4,6 +4,8 @@
 
 Read a selected guide itself. Follow further references when the question needs them or an explicit instruction identifies the condition, target, and reason. A link does not require recursive loading, and a title or summary does not replace required text.
 
+A guide selected for unfinished work remains selected across compaction while its conditions still apply. Recover its name from the continuation point and read required text lost from context before resuming the task. If the selection was not retained, reconstruct it from the work and the conditions below. Reassess the selection when the work changes.
+
 | Situation | Guide and purpose |
 | --- | --- |
 | Missing context or uncertain prior knowledge matters. | [Memory retrieval](guides/memory-retrieval.md): search vocabulary, relations, and evidence. |
@@ -17,4 +19,4 @@ Read a selected guide itself. Follow further references when the question needs 
 | Signals, mode recovery, or teaching coordination shorthand. | [Collaboration signals](guides/collaboration-signals.md): meanings, persistence, and local variants. |
 | Shared framing, review, successive constraints, or corrections. | [Deliberative collaboration](guides/deliberative-collaboration.md): phase, review unit, and expectations. |
 
-After context loss, restore [the declared resident selection](core.yaml), the active question and mode, and relevant person/project roots before continuing ordinary work.
+After context loss, make restoration the first operation: restore [the declared resident selection](core.yaml), the active question and mode, relevant person/project roots, and still-applicable selected guides before resuming pending work.

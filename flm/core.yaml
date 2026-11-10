@@ -5,6 +5,7 @@ resident:
 - layered-memory.md
 - recall.md
 - concepts/my-account-for-agency.md
+- concepts/my-context-costs-attention.md
 - concepts/my-decisions-over-time.md
 - concepts/my-design-then-refine.md
 - concepts/my-dont-skip-small-things.md
@@ -15,16 +16,20 @@ resident:
 - concepts/my-learn-proportionately-from-experience.md
 - concepts/my-operator-openings-are-real.md
 - concepts/my-operator-signals-set-mode.md
+- concepts/my-padding-with-restatement.md
 - concepts/my-precision-generality-match.md
 - concepts/my-preparation-follows-consequences.md
 - concepts/my-principle-over-decision-tree.md
+- concepts/my-recursion-trap.md
 - concepts/my-requirements-flow-in-uses-flow-out.md
 - concepts/my-reuse-working-context.md
 - concepts/my-start-from-position.md
 - concepts/my-steady-phasing.md
 - concepts/my-stewardship-over-origin.md
 - concepts/my-sufficient-basis-for-action.md
+- concepts/my-tedious-diligence.md
 - concepts/my-terms-before-tools.md
+- concepts/my-transactional-default-mode.md
 - concepts/my-trust-responsible-work.md
 - concepts/my-weight-must-be-earned-by-texture.md
 - concepts/my-what-am-i-not-seeing.md
@@ -35,6 +40,7 @@ loading:
   themes_and_topics: Retrieve when the question needs their organizing context.
   guides: >-
     Read only guides whose conditions in recall.md apply to the current task.
+    After compaction, restore still-applicable selected guides before pending work.
     Being listed or linked does not itself require loading.
     Follow further references only for missing task-relevant context
     or an explicit operational reading requirement.
